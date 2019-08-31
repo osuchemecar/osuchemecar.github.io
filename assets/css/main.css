@@ -2431,6 +2431,21 @@
 			width: 48%;
 		}
 
+.features article .imageright {
+			display: inline-block;
+			padding-left: 2.5em;
+			vertical-align: middle;
+			width: 48%;
+    text-decoration:none;
+        border-radius: 5px;
+		}
+.features article .imageright img {
+				display: block;
+				width: 100%;
+    text-decoration:none;
+        border-radius: 5px;
+			}
+
 			.features article .image img {
 				display: block;
 				width: 100%;
@@ -2936,10 +2951,19 @@
 				padding-right: 0;
 				width: 100%;
 			}
+        
+        .features article .imageright {
+				display: block;
+				margin: 2.25em 0 2.25em 0;
+				padding-left: 0;
+				width: 100%;
+                border-radius: 5px;
+			}
 
 			.features article .inner {
 				display: block;
 				width: 100%;
+                padding-left: 0 !important;
 			}
 
 		/* Header */
